@@ -110,6 +110,8 @@ public:
 	bool verbose_mode = false;
 	bool very_verbose_mode = false;
 
+	int score_matrix_version = 0; //0 default
+
 	bool profile_aligning = false;
 	string input_file_name;
 	string input_file_name_2;

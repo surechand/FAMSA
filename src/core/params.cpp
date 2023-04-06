@@ -137,6 +137,8 @@ bool CParams::parse(int argc, char** argv, bool& showExpert)
 	findOption(params, "-tge", gap_term_ext_base);
 	findOption(params, "-gsd", scaler_div);
 	findOption(params, "-gsl", scaler_log);
+
+	findOption(params, "-sm", score_matrix_version);
 		
 	enable_gap_rescaling = !findSwitch(params, "-dgr");
 	enable_gap_optimization = !findSwitch(params, "-dgo");

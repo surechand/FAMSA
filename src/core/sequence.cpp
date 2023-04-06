@@ -14,8 +14,8 @@ Authors: Sebastian Deorowicz, Agnieszka Debudaj-Grabysz, Adam Gudys
 
 using namespace std;
 
-char CSequence::mapping_table[25] = "ARNDCQEGHILKMFPSTWYVBZX*";
-char CGappedSequence::mapping_table[25] = "ARNDCQEGHILKMFPSTWYVBZX*";
+char CSequence::mapping_table[25] = "ARNDCQEGHILKMFPSTUYVBZX*"; // W switched to U
+char CGappedSequence::mapping_table[25] = "ARNDCQEGHILKMFPSTUYVBZX*"; // W switched to U
 
 
 // *******************************************************************

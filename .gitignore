@@ -9,3 +9,4 @@ FAMSA.VC.db
 *.opendb
 /.vs
 /src/famsa.vcxproj.user
+/extHomfam

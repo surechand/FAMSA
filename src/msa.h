@@ -38,7 +38,7 @@ protected:
 	static const int TIMER_REFINMENT = 3;
 	static const int TIMER_TREE_STORE = 4;
 
- 	static double SM_MIQS[24][24];
+ 	static double SM_MIQS[5][24][24];
 
 	CParams params;
 	instruction_set_t instruction_set;
